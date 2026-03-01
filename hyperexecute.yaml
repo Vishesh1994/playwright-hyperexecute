@@ -12,8 +12,12 @@ concurrency: 2
 retryOnFailure: true
 maxRetries: 1
 
-globalTimeout: 150
-testSuiteTimeout: 150
+globalTimeout: 600
+testSuiteTimeout: 600
+
+env:
+  LT_USERNAME: ${LT_USERNAME}
+  LT_ACCESS_KEY: ${LT_ACCESS_KEY}
 
 pre:
   - echo "Installing Dependencies"
@@ -33,12 +37,19 @@ testDiscovery:
 
 testRunnerCommand: |
   echo "Running test -> $test"
-  npx playwright test $test --reporter=line
+  npx playwright test $test --config=playwright.config.js
+
+report: true
+
+partialReports:
+  location: playwright-report
+  type: html
 
 artifacts:
   upload:
-    - playwright-report/**
-    - test-results/**
+    - name: playwright-report
+      path:
+        - playwright-report
 
 jobLabel:
   - playwright
