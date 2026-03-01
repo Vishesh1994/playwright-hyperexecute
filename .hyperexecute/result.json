@@ -1,0 +1,158 @@
+{
+    "id": "076a5529-17c0-4a6e-b9fe-2ca34ae34563",
+    "created_at": "2026-03-01T09:03:30Z",
+    "update_at": "2026-03-01T09:05:02Z",
+    "global_timeout": 150,
+    "tunnel_name": "",
+    "start_time": "2026-03-01T09:03:55Z",
+    "end_time": "2026-03-01T09:05:02Z",
+    "summary": {
+        "total_time": 67000000000,
+        "execution_time": 67000000000,
+        "total_tasks": 2,
+        "build_time_consumed": 127000000000,
+        "jobTestExecutionTime": "17s",
+        "failed_tasks": 0,
+        "total_stage_info": {
+            "prerun": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            },
+            "scenario": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 3
+            },
+            "test_discovery": {
+                "StageFailedPercent": 0,
+                "StagePassPercent": 100,
+                "TotalStage": 2
+            }
+        },
+        "status": "completed",
+        "job_link": "https://hyperexecute.lambdatest.com/hyperexecute/task?jobId=076a5529-17c0-4a6e-b9fe-2ca34ae34563"
+    },
+    "tasks": [
+        {
+            "id": "HYPW-3031466-1772355834916419914FOX",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2026-03-01T09:03:55Z",
+            "update_at": "2026-03-01T09:05:02Z",
+            "start_time": "2026-03-01T09:03:55Z",
+            "end_time": "2026-03-01T09:05:02Z",
+            "group_number": 1,
+            "stages": [
+                {
+                    "id": "731e66c2-cda9-491f-910e-abca64f47b24",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2026-03-01T09:03:56Z",
+                    "started_at": "2026-03-01T09:03:56Z",
+                    "updated_at": "2026-03-01T09:04:23Z",
+                    "order": 2,
+                    "task_number": 1
+                },
+                {
+                    "id": "ad18faa2-dc26-46c8-b892-9f4dd1c31dec",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2026-03-01T09:04:23Z",
+                    "started_at": "2026-03-01T09:04:23Z",
+                    "updated_at": "2026-03-01T09:04:23Z",
+                    "order": 3,
+                    "task_number": 1
+                },
+                {
+                    "id": "4337e67f-adef-4f85-8141-4873b6098959",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "dragSlider.spec.js",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2026-03-01T09:04:23Z",
+                    "started_at": "2026-03-01T09:04:24Z",
+                    "updated_at": "2026-03-01T09:04:49Z",
+                    "order": 4,
+                    "task_number": 1
+                },
+                {
+                    "id": "fcee4de1-0ca8-477f-9899-6e6cc3efd883",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "simpleForm.spec.js",
+                    "iteration": 0,
+                    "link": "command.2.0.log",
+                    "created_at": "2026-03-01T09:04:23Z",
+                    "started_at": "2026-03-01T09:04:49Z",
+                    "updated_at": "2026-03-01T09:05:01Z",
+                    "order": 5,
+                    "task_number": 1
+                }
+            ]
+        },
+        {
+            "id": "HYPW-3031466-1772355834921090840GDF",
+            "os": "win",
+            "status": "completed",
+            "remark": "completed",
+            "debug": false,
+            "created_at": "2026-03-01T09:03:55Z",
+            "update_at": "2026-03-01T09:04:55Z",
+            "start_time": "2026-03-01T09:03:55Z",
+            "end_time": "2026-03-01T09:04:55Z",
+            "group_number": 2,
+            "stages": [
+                {
+                    "id": "6b5995f1-ee75-4bbe-a3d1-97ea80f3428b",
+                    "type": "prerun",
+                    "status": "completed",
+                    "name": "pre",
+                    "iteration": 0,
+                    "link": "pre.log",
+                    "created_at": "2026-03-01T09:03:57Z",
+                    "started_at": "2026-03-01T09:03:56Z",
+                    "updated_at": "2026-03-01T09:04:26Z",
+                    "order": 2,
+                    "task_number": 2
+                },
+                {
+                    "id": "9f62b370-f4df-4dde-978b-4da3a0be75a4",
+                    "type": "test_discovery",
+                    "status": "completed",
+                    "name": "discovery",
+                    "iteration": 0,
+                    "link": "discovery.log",
+                    "created_at": "2026-03-01T09:04:27Z",
+                    "started_at": "2026-03-01T09:04:26Z",
+                    "updated_at": "2026-03-01T09:04:27Z",
+                    "order": 3,
+                    "task_number": 2
+                },
+                {
+                    "id": "4c2aca1c-7191-4f15-8a61-894eebd906f5",
+                    "type": "scenario",
+                    "status": "completed",
+                    "name": "inputForm.spec.js",
+                    "iteration": 0,
+                    "link": "command.1.0.log",
+                    "created_at": "2026-03-01T09:04:27Z",
+                    "started_at": "2026-03-01T09:04:28Z",
+                    "updated_at": "2026-03-01T09:04:51Z",
+                    "order": 4,
+                    "task_number": 2
+                }
+            ]
+        }
+    ],
+    "test_ids": null
+}
